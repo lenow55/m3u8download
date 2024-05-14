@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "m3u8downdoader-py"
+version = "0.1.0"
+description = "Код для скачивания сегментов видео, потом ручная сборка через ffmpeg"
+authors = ["Новиков Илья <nov.ilucha@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
