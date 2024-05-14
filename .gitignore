@@ -2,3 +2,8 @@
 
 *.lock
 poetry.toml
+
+
+tmp/**
+index.m3u8
+
